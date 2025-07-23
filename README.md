@@ -73,9 +73,15 @@
       Then copy the .ttf or .otf files there:
   ```bash    
       cp ~/Downloads/JetBrainsMonoNerdFont-Medium.ttf ~/.local/share/fonts/
-  ```    
+      
       Then refresh the font cache:
-
+  ```
+  3. Install fish
+    ```sudo apt install fish
+    ```
+    ```
+    set -U fish_color_autosuggestion '#f2cdcd'  # flamingo pink
+    ```
 fc-cache -fv
   2.  And Done!!! 🎉🎉
 
